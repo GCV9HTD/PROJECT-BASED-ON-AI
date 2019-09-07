@@ -24,7 +24,8 @@ Each eye is represented by 6 (x, y)-coordinates, starting at the left-corner of 
 ### How to execute
 
 1) first you want to install python IDLE
-2) Then open your command prompt move directory to the place where python has installed
+2) Then open your command prompt -move directory- to the place where python has installed
 3) Use the command "py -m pip install module_name"
 4) for this you need to install opencv , scipy  ,imutils, dlib modules
-5) for dat file click here " 
+5) for dat file click here "http://dlib.net/files/" and download "shape_predictor_68_face_landmarks.dat file"
+6) To run this application use command  "python filename.py"
