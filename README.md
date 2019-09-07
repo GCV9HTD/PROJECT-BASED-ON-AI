@@ -1,5 +1,24 @@
-First we want to install python IDLE
-To run this application we want to install open CV 
-This application is used to detect eyes so we want to install open CV module
-To install open CV we need to run the command "py -m pip install open CV"
-To detect the face we need to download "face cascade XML file" and to detect the eyes we need to download "eyes cascade XML file..
+## Applications
+This can be used by riders who tend to drive for a longer period of time that may lead to accidents
+
+
+### Code Requirements
+The example code is in Python ([version 2.7](https://www.python.org/download/releases/2.7/) or higher will work). 
+
+### Dependencies
+
+1) import cv2
+2) import imutils
+3) import dlib
+4) import scipy
+
+
+### Description
+
+A computer vision system that can automatically detect driver drowsiness in a real-time video stream and then play an alarm if the driver appears to be drowsy.
+
+### Algorithm
+
+Each eye is represented by 6 (x, y)-coordinates, starting at the left-corner of the eye (as if you were looking at the person), and then working clockwise around the eye:.
+
+<img src="D:\project\eye3.jpg">
