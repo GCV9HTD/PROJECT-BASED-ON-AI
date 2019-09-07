@@ -15,7 +15,7 @@ def eye_aspect_ratio(eye):
 thresh = 0.25
 frame_check = 5
 detect = dlib.get_frontal_face_detector()
-predict = dlib.shape_predictor("E:\Github projects\Drowsiness_Detection_fork\shape_predictor_68_face_landmarks.dat")# Dat file is the crux of the code
+predict = dlib.shape_predictor("path of the dat file")
 
 (lStart, lEnd) = face_utils.FACIAL_LANDMARKS_68_IDXS["left_eye"]
 (rStart, rEnd) = face_utils.FACIAL_LANDMARKS_68_IDXS["right_eye"]
@@ -44,7 +44,7 @@ while True:
 			if flag >= frame_check:
 				cv2.putText(frame, "****************ALERT!****************")#, (10, 30),
 					#cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
-				sound=playsound("C:\\Users\\Public\\Music\\Sample Music\\sam.mp3")
+				sound=playsound("path of the audio file")
 				
                         
 				
